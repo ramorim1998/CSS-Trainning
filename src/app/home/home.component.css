@@ -1,0 +1,106 @@
+/* the * elements are the geral ones, use it to format all the elements even the defaults */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* flex box in css, general formatation */
+#flex{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(209, 203, 203);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+ }
+
+ #navbar{
+     font-size: 35px;
+     background: white;
+     border-bottom:1px solid rgb(189, 189, 189);
+     height: 100px;
+     width: 100%; 
+     position: fixed;
+     top:0px;
+ }
+ 
+
+ #area{
+     margin-top: 100px;
+     display: flex;
+     width: 920px;
+     margin: 0 auto;
+     
+     
+ }
+ .verde{
+     color: green;
+ }
+#menu{
+    margin: auto 450px;
+    padding: 30px 0;
+    font-weight: bolder;
+}
+
+/* manipulate the a to manipulate the links decorations */
+a{
+    padding: 5px 10px;;
+}
+
+a:link{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    margin: auto 2px;
+    color: gray;
+}
+a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+    background: rgb(99, 255, 99);
+}
+a:visited{
+    color:green;
+}
+a:active{
+    color:blue;
+}
+.area-principal{
+    width: 720px;
+    margin: 85px auto 10px auto;
+    padding: 15px;
+}
+.postagem{
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+h2{
+    color: green;
+}
+.data-postagem{
+    color: gray;
+    border-bottom: 1px solid gray;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.img-post{
+    margin: 10px 10px;
+    float: left;
+}
+p{
+    margin: 5px;
+}
+/* person who are posting */
+.poster{
+    font-weight: bolder;
+    font-style: italic;
+    border-left: 5px solid gray;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;    
+    display: block;
+}
